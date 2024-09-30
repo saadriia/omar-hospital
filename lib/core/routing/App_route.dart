@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:omarhospital/features/Home/Ui/screens/loginScreen.dart';
+import 'package:omarhospital/features/onBoarding/onBoardingScreen.dart';
 //
 import 'routs.dart';
 
@@ -7,11 +9,11 @@ class AppRoute {
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(
-          builder: (_) => const Placeholder(),
+          builder: (_) => const Onboardingscreen(),
         );
         case Routes.loginscreen:
         return MaterialPageRoute(
-          builder: (_) => const Placeholder(),
+          builder: (_) => const Loginscreen(),
         );
       default:
         return MaterialPageRoute(
